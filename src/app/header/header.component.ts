@@ -8,6 +8,7 @@ import { Component } from "@angular/core";
 
 export class HeaderComponent {
 collapsed = true;
+  protected readonly toolbar = toolbar;
 }
 
 
